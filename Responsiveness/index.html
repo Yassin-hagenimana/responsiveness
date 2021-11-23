@@ -7,23 +7,47 @@
 
 <body>
 <div class="main">
-<h1>Hagenimana yassin's biography.</h1>
-    <h2>Kabarondo vision</h2>
- <img src="73025624_402862753969807_5136968812310036480_n.jpg" alt="yassin">
-<p>
-    This will scale the main to a max-width of 40rem, meaning it will max out
-    The last trick I use on any page that requires a single column of content in the
-    center (which is basically every basic website made this year). I usually put this
-    on my main, as that’s where my main
-    content will reside (duh):on 40rem but it will still automatically shrink to
-    smaller sizes. Obviously, you’re free to change this value to suit your website’s
-    needs. The margin: 0 auto makes sure the content gets centred horizontally.
-</p>
 
-    <form>
-        <labeL>Full names</labeL>
-        <input type="text"/>
-    </form>
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="table.html">Table</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+
+ <img src="73025624_402862753969807_5136968812310036480_n.jpg" alt="yassin">
+ <p>Here is a quote from WWF's website:</p>
+ <blockquote cite="http://www.worldwildlife.org/who/index.html">
+ For 50 years, WWF has been protecting the future of nature.
+ The world's leading conservation organization,
+ WWF works in 100 countries and is supported by
+ 1.2 million members in the United States and
+ close to 5 million globally.
+ </blockquote>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 </div>
 </body>
 
