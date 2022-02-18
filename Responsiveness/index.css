@@ -30,9 +30,9 @@ h3 {
 
 /* responsiveness style */
 
-img{
+/* img{
     height: 20rem;
-}
+} */
 input[type="text"]{
     height: 40px;
     width: 500px;
@@ -55,6 +55,7 @@ ul {
   
   li {
     float: left;
+    font-size: 23em;
   }
   
   li a {

@@ -1,0 +1,189 @@
+img{
+    width: 400px;
+    height: 400px;
+    margin-left: 0 auto;
+  
+  }
+  
+  p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px;
+    text-decoration:none;
+    text-align: justify;
+  }
+       h3{
+         text-align: center;
+         color: red;
+         text-shadow: 10px 30px 40px solid red;
+       }
+       h3 {
+              text-align: center;
+            }
+  
+            /* PRINT VERSION */
+            @media print {
+              h3:after {
+                content: ' - PRINT';
+                display: inline;
+              }
+            }
+  
+            /* PHONE LANDSCAPE VERSION */
+            @media only screen and (min-width: 320px) and (orientation: landscape) {
+              h3:after {
+                content: ' - PHONE LANDSCAPE';
+                display: inline;
+              }
+            }
+            /* PHONE PORTRAIT VERSION */
+            @media only screen and (min-width: 320px) and (orientation: portrait) {
+              h3:after {
+                content: ' - PHONE PORTRAIT';
+                display: inline;
+              }
+            }
+  
+            /* TABLET LANDSCAPE VERSION - not work, are the same as desktop */
+            @media only screen and (min-width: 768px) and (orientation: landscape) {
+              h3:after {
+                content: ' - TABLET LANDSCAPE';
+                display: inline;
+              }
+            }
+            /* TABLET PORTRAIT VERSION */
+            @media only screen and (min-width: 768px) and (orientation: portrait) {
+              h3:after {
+                content: ' - TABLET PORTRAIT';
+                display: inline;
+              }
+            }
+            /* DESKTOP VERSION */
+            @media only screen and (min-width: 980px) {
+              h3:after {
+                content: ' - DESKTOP';
+                display: inline;
+              }
+            }
+  
+            h3:after {
+         content: ' - DESKTOP AND TABLET LANDSCAPE VERSION';
+         display: inline;
+       }
+  
+       @media only screen and (min-width: 768px) and (max-width: 959px) {
+         h3:after {
+           content: ' - TABLET PORTRAIT';
+           display: inline;
+         }
+         h3 {
+           color: red;
+         }
+       }
+  
+       @media only screen and (max-width: 767px) {
+         h3:after {
+           content: ' - PHONE LANDSCAPE AND PORTRAIT VERSION';
+           display: inline;
+         }
+       }
+  
+  
+  
+  
+  
+        @media only screen and (max-width: 479px) {
+     h3:after {content: ' - PHONE PORTAIT VERSION'; display: inline;}
+  }
+  
+  
+  
+  
+  
+  h3 {
+         text-align: center;
+       }
+  
+       /* PRINT VERSION */
+       @media print {
+         h3:after {
+           content: ' - PRINT';
+           display: inline;
+         }
+       }
+       /* PHONE VERSION */
+       @media only screen and (min-width: 320px) {
+         h3:after {
+           content: ' - PHONE';
+           display: inline;
+         }
+       }
+       /* TABLET VERSION */
+       @media only screen and (min-width: 768px) {
+         h3:after {
+           content: ' - TABLET';
+           display: inline;
+         }
+       }
+       /* DESKTOP VERSION */
+       @media only screen and (min-width: 980px) {
+         h3:after {
+           content: ' - DESKTOP';
+           display: inline;
+         }
+       }
+  
+       table {
+     border-collapse: collapse;
+     border-spacing: 0;
+     width: 100%;
+     border: 1px solid #ddd;
+     margin: 0;
+   }
+  
+   th, td {
+     text-align: center;
+     padding: 16px;
+   }
+  
+   th:first-child, td:first-child {
+     text-align: left;
+   }
+  
+   tr:nth-child(even) {
+     background-color: #f2f2f2
+   }
+  
+  
+       /* responsiveness styles */
+  
+       html{
+           font-size: calc(60% + 0.8vmin);
+       }
+  
+  
+  
+       * {
+           font-size: 1rem;
+           box-sizing: border-box;
+       }
+  
+       .main{
+           max-width: 100%;
+           margin: 0 auto;
+       }
+  
+       h1 {
+           font-size: 2.2rem;
+       }
+  
+       h2 {
+           font-size: 1.6rem;
+       }
+  
+       h3 {
+           font-size: 1.3rem;
+       }
+  
+       /* responsiveness style */
+  
