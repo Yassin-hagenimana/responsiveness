@@ -1,0 +1,75 @@
+p{
+    text-align: justify;
+    margin: 10%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-small;
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: large;
+}
+
+
+img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: grid;
+    margin: 0% 40%;
+}
+
+
+
+     /* responsiveness styles */
+
+ html{
+        font-size: calc(60% + 0.8vmin);
+    }
+
+
+
+    * {
+        font-size: 1rem;
+        box-sizing: border-box;
+    }
+
+    .main{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2,p {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    /* responsiveness style */
+
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        max-width: 100%;
+      }
+
+/*  */
