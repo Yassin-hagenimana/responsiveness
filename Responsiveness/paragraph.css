@@ -16,11 +16,12 @@ h1{
 
 
 img{
-    width: 100%;
+    /* width: 100%; */
     max-width: 200px;
     height: auto;
     display: grid;
-    margin: 0% 40%;
+    width: calc(33.333% - 20px); /* subtracts margin from column width */
+    margin-left:calc(50% - 20px);  /* or whatever */
 }
 
 
@@ -29,6 +30,7 @@ img{
 
  html{
         font-size: calc(60% + 0.8vmin);
+
     }
 
 
@@ -36,6 +38,7 @@ img{
     * {
         font-size: 1rem;
         box-sizing: border-box;
+        max-height: 100%;
     }
 
     .main{
